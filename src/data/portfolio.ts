@@ -51,7 +51,7 @@ export const portfolioData = {
       points: ["Experience section will be populated from your real resume only."]
     }
   ] as ExperienceItem[],
-  projects: [
+projects: [
     {
       name: "GreenCart",
       summary: "An e-commerce web app where users can browse products, add to cart, and place orders.",
@@ -63,6 +63,20 @@ export const portfolioData = {
       summary: "A dashboard app to manage employees, attendance, and roles with admin controls.",
       stack: ["Pending"],
       repoUrl: "https://github.com/zubair-khan-Eng"
+    },
+    {
+      name: "Rock Paper Scissor Game",
+      summary: "A fun interactive Rock Paper Scissor game where you play against the computer with real-time results.",
+      stack: ["HTML", "CSS", "JavaScript"],
+      repoUrl: "https://github.com/zubair-khan-Eng/ROCK-PAPER-SCISSOR",
+      liveUrl: "https://rock-paper-scissor-flame-eight.vercel.app"
+    },
+    {
+      name: "Responsive Website",
+      summary: "A modern fully responsive agency website with clean UI, smooth navigation and professional layout.",
+      stack: ["HTML", "CSS", "JavaScript"],
+      repoUrl: "https://github.com/zubair-khan-Eng",
+      liveUrl: "https://responsive-website-xi-one.vercel.app"
     }
   ] as ProjectItem[],
   education: [
